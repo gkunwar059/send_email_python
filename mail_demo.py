@@ -16,7 +16,7 @@ msg=EmailMessage()
 msg['Subject']='Check out Bronx as a puppy ?'
 msg['From']=EMAIL_ADDRESS
 # msg['To']=contacts     ==>another way in the python documentation look at here 
-msg['To']=','.join(contacts)        #in the python documentation this one is here right 
+msg['To']=','.join(contacts)        #in the python documentation this one is here right     join chai 2 or more then contact ma data pathaune vayepaxi chai use garne hai ta
 msg.set_content('How about dinner at 6p this saturday ?')
 
 msg.add_alternative(
